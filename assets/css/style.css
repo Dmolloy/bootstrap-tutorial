@@ -9,6 +9,20 @@
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins&display=swap');
 
+body {
+    font-family: "Poppins", sans-serif;
+    background-color:  #a4c2d1; /*egg blue*/
+}
+
+h1, h2 {
+    font-family: "DM Serif Display", serif;
+    color: #184f63; /*dark-blue*/
+}
+
+.sharp-corners, .sharp-corners * {
+    border-radius: 0;
+}
+
 /* Header */
 
 #hero {
@@ -18,16 +32,6 @@
     background-position: 50% 70%;
     background-color: #dbdcde; /*light grey*/
     padding: 5% 7%;
-}
-
-body {
-    font-family: "Poppins", sans-serif;
-    background-color:  #a4c2d1; /*egg blue*/
-}
-
-h1, h2 {
-    font-family: "DM Serif Display", serif;
-    color: #184f63; /*dark-blue*/
 }
 
 /* About section */
